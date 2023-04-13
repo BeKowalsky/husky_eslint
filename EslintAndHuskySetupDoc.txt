@@ -36,7 +36,7 @@ npm install eslint-plugin-jest --save-dev
 
 ---------------------------------------------------------------
 
-//.eslint.json
+//.eslintrc.json
 {
     "env": {
         "browser": true,
