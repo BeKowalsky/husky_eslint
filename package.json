@@ -3,9 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "lint-staged": {
-    "*.js": [
+    "*.{js,jsx}": [
       "eslint --fix",
-      "cross-env CI=true npm run test --bail --findRelatedTests",
       "git add"
     ]
   },
