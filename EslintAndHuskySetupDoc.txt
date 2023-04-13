@@ -64,7 +64,6 @@ npm install eslint-plugin-jest --save-dev
         "react/react-in-jsx-scope": "off",
         "react/jsx-filename-extension": [1, {"extensions": [".js", ".jsx"]}],
         "semi": ["error", "always"],
-        "linebreak-style": 0
     }
 }
 
