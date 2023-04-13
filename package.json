@@ -4,9 +4,7 @@
   "private": true,
   "lint-staged": {
     "*.js": [
-      "eslint --fix",
-      "cross-env CI=true npm run test --bail --findRelatedTests",
-      "git add"
+      "npx eslint --fix"
     ]
   },
   "dependencies": {
