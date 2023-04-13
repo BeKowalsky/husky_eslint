@@ -24,7 +24,7 @@
     "rules": {
         "react/react-in-jsx-scope": "off",
         "react/jsx-filename-extension": [1, {"extensions": [".js", ".jsx"]}],
-        "semi": ["error", "always"],
-        "linebreak-style": 0
+        "linebreak-style": 0,
+        "semi": ["error", "always"]
     }
 }
