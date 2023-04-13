@@ -5,6 +5,7 @@
   "lint-staged": {
     "*.{js,jsx}": [
       "eslint --fix",
+      "cross-env CI=true npm run test --bail --findRelatedTests",
       "git add"
     ]
   },
