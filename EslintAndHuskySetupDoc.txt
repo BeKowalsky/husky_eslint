@@ -11,16 +11,6 @@ npx husky add .husky/pre-commit "npm run testeHusky"
 
 ---------------------------------------------------------------
 
-//.husky/pre-commit line 1:
-#!/bin/env sh
-
----------------------------------------------------------------
-
-//.husky/_/husky.sh line 1:
-#!/bin/env sh
-
----------------------------------------------------------------
-
 git add .
 git commit -a -m "Primeiro commit, para teste"
 
